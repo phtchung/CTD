@@ -1,0 +1,3 @@
+C:/Users/PTC/OneDrive - Hanoi University of Science and Technology/Desktop/CT/Tuan1/cmake-build-debug/CMakeFiles/Tuan1.dir
+C:/Users/PTC/OneDrive - Hanoi University of Science and Technology/Desktop/CT/Tuan1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/PTC/OneDrive - Hanoi University of Science and Technology/Desktop/CT/Tuan1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
