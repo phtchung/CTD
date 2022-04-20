@@ -1,5 +1,5 @@
-.\cmake-build-debug\ctd.exe .\cmake-build-debug\example1.kpl > temp
-fc /a temp .\cmake-build-debug\result1.txt
+@echo off
+"C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --build C:\Users\PTC\CLionProjects\ctd\cmake-build-debug --target ctd
 .\cmake-build-debug\ctd.exe .\cmake-build-debug\example2.kpl > temp
 fc /a temp .\cmake-build-debug\result2.txt
 .\cmake-build-debug\ctd.exe .\cmake-build-debug\example3.kpl > temp
