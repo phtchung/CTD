@@ -1,0 +1,17 @@
+# ninja log v5
+0	203	6727505538395517	CMakeFiles/untitled.dir/main.c.obj	90557834f40628fc
+2	114	6727505869349503	CMakeFiles/untitled.dir/charcode.c.obj	1ee3ada685b0f8ea
+20	149	6727505869649507	CMakeFiles/untitled.dir/reader.c.obj	3eedc75faab3548a
+23	156	6727505869779504	CMakeFiles/untitled.dir/error.c.obj	f2937f91e62d6e69
+16	165	6727505869859522	CMakeFiles/untitled.dir/parser.c.obj	481bc46939528a8d
+35	166	6727505869869504	CMakeFiles/untitled.dir/token.c.obj	ee909803004d6ce9
+27	178	6727505870009467	CMakeFiles/untitled.dir/scanner.c.obj	f659c7f0d9bcd9bf
+179	339	6727505871569454	untitled.exe	350caafcc0a33bd7
+2	169	6727511967733050	CMakeFiles/untitled.dir/parser.c.obj	481bc46939528a8d
+170	381	6727511969823121	untitled.exe	350caafcc0a33bd7
+2	118	6727514448260930	CMakeFiles/untitled.dir/parser.c.obj	481bc46939528a8d
+119	272	6727514449770938	untitled.exe	350caafcc0a33bd7
+2	107	6727514893567296	CMakeFiles/untitled.dir/parser.c.obj	481bc46939528a8d
+107	242	6727514894877301	untitled.exe	350caafcc0a33bd7
+2	115	6727515488325991	CMakeFiles/untitled.dir/parser.c.obj	481bc46939528a8d
+116	244	6727515489596093	untitled.exe	350caafcc0a33bd7
