@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: W4_1
+# Project: untitled
 # Configurations: Debug
 # =============================================================================
 
@@ -39,69 +39,105 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/PTC/OneDrive$ -$ Hanoi$ University$ of$ Science$ and$ Technology/Desktop/CT/CTD/W4_1/cmake-build-debug/
-# =============================================================================
-# Object build statements for EXECUTABLE target W4_1
-
-
-#############################################
-# Order-only phony target for W4_1
-
-build cmake_object_order_depends_target_W4_1: phony || CMakeFiles/W4_1.dir
-
-build CMakeFiles/W4_1.dir/debug.c.obj: C_COMPILER__W4_1_Debug C$:/Users/PTC/OneDrive$ -$ Hanoi$ University$ of$ Science$ and$ Technology/Desktop/CT/CTD/W4_1/debug.c || cmake_object_order_depends_target_W4_1
-  DEP_FILE = CMakeFiles\W4_1.dir\debug.c.obj.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\W4_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\W4_1.dir
-
-build CMakeFiles/W4_1.dir/symtab.c.obj: C_COMPILER__W4_1_Debug C$:/Users/PTC/OneDrive$ -$ Hanoi$ University$ of$ Science$ and$ Technology/Desktop/CT/CTD/W4_1/symtab.c || cmake_object_order_depends_target_W4_1
-  DEP_FILE = CMakeFiles\W4_1.dir\symtab.c.obj.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\W4_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\W4_1.dir
-
-build CMakeFiles/W4_1.dir/main.c.obj: C_COMPILER__W4_1_Debug C$:/Users/PTC/OneDrive$ -$ Hanoi$ University$ of$ Science$ and$ Technology/Desktop/CT/CTD/W4_1/main.c || cmake_object_order_depends_target_W4_1
-  DEP_FILE = CMakeFiles\W4_1.dir\main.c.obj.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\W4_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\W4_1.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target W4_1
-
-
-#############################################
-# Link the executable W4_1.exe
-
-build W4_1.exe: C_EXECUTABLE_LINKER__W4_1_Debug CMakeFiles/W4_1.dir/debug.c.obj CMakeFiles/W4_1.dir/symtab.c.obj CMakeFiles/W4_1.dir/main.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\W4_1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = W4_1.exe
-  TARGET_IMPLIB = libW4_1.dll.a
-  TARGET_PDB = W4_1.exe.dbg
-
+cmake_ninja_workdir = C$:/Users/PTC/OneDrive$ -$ Hanoi$ University$ of$ Science$ and$ Technology/Desktop/CT/CTD/untitled/cmake-build-debug/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\PTC\OneDrive - Hanoi University of Science and Technology\Desktop\CT\CTD\W4_1\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\PTC\OneDrive - Hanoi University of Science and Technology\Desktop\CT\CTD\untitled\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
 build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target untitled
+
+
+#############################################
+# Order-only phony target for untitled
+
+build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
+
+build CMakeFiles/untitled.dir/main.c.obj: C_COMPILER__untitled_Debug C$:/Users/PTC/OneDrive$ -$ Hanoi$ University$ of$ Science$ and$ Technology/Desktop/CT/CTD/untitled/main.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\main.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+
+build CMakeFiles/untitled.dir/charcode.c.obj: C_COMPILER__untitled_Debug C$:/Users/PTC/OneDrive$ -$ Hanoi$ University$ of$ Science$ and$ Technology/Desktop/CT/CTD/untitled/charcode.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\charcode.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+
+build CMakeFiles/untitled.dir/debug.c.obj: C_COMPILER__untitled_Debug C$:/Users/PTC/OneDrive$ -$ Hanoi$ University$ of$ Science$ and$ Technology/Desktop/CT/CTD/untitled/debug.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\debug.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+
+build CMakeFiles/untitled.dir/error.c.obj: C_COMPILER__untitled_Debug C$:/Users/PTC/OneDrive$ -$ Hanoi$ University$ of$ Science$ and$ Technology/Desktop/CT/CTD/untitled/error.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\error.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+
+build CMakeFiles/untitled.dir/parser.c.obj: C_COMPILER__untitled_Debug C$:/Users/PTC/OneDrive$ -$ Hanoi$ University$ of$ Science$ and$ Technology/Desktop/CT/CTD/untitled/parser.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\parser.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+
+build CMakeFiles/untitled.dir/reader.c.obj: C_COMPILER__untitled_Debug C$:/Users/PTC/OneDrive$ -$ Hanoi$ University$ of$ Science$ and$ Technology/Desktop/CT/CTD/untitled/reader.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\reader.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+
+build CMakeFiles/untitled.dir/scanner.c.obj: C_COMPILER__untitled_Debug C$:/Users/PTC/OneDrive$ -$ Hanoi$ University$ of$ Science$ and$ Technology/Desktop/CT/CTD/untitled/scanner.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\scanner.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+
+build CMakeFiles/untitled.dir/symtab.c.obj: C_COMPILER__untitled_Debug C$:/Users/PTC/OneDrive$ -$ Hanoi$ University$ of$ Science$ and$ Technology/Desktop/CT/CTD/untitled/symtab.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\symtab.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+
+build CMakeFiles/untitled.dir/token.c.obj: C_COMPILER__untitled_Debug C$:/Users/PTC/OneDrive$ -$ Hanoi$ University$ of$ Science$ and$ Technology/Desktop/CT/CTD/untitled/token.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\token.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target untitled
+
+
+#############################################
+# Link the executable untitled.exe
+
+build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.obj CMakeFiles/untitled.dir/charcode.c.obj CMakeFiles/untitled.dir/debug.c.obj CMakeFiles/untitled.dir/error.c.obj CMakeFiles/untitled.dir/parser.c.obj CMakeFiles/untitled.dir/reader.c.obj CMakeFiles/untitled.dir/scanner.c.obj CMakeFiles/untitled.dir/symtab.c.obj CMakeFiles/untitled.dir/token.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = untitled.exe
+  TARGET_IMPLIB = libuntitled.dll.a
+  TARGET_PDB = untitled.exe.dbg
 
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\PTC\OneDrive - Hanoi University of Science and Technology\Desktop\CT\CTD\W4_1\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\PTC\OneDrive - Hanoi University of Science and Technology\Desktop\CT\CTD\W4_1" -B"C:\Users\PTC\OneDrive - Hanoi University of Science and Technology\Desktop\CT\CTD\W4_1\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\PTC\OneDrive - Hanoi University of Science and Technology\Desktop\CT\CTD\untitled\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\PTC\OneDrive - Hanoi University of Science and Technology\Desktop\CT\CTD\untitled" -B"C:\Users\PTC\OneDrive - Hanoi University of Science and Technology\Desktop\CT\CTD\untitled\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -111,7 +147,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build W4_1: phony W4_1.exe
+build untitled: phony untitled.exe
 
 # =============================================================================
 # Folder targets.
@@ -119,9 +155,9 @@ build W4_1: phony W4_1.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/PTC/OneDrive - Hanoi University of Science and Technology/Desktop/CT/CTD/W4_1/cmake-build-debug
+# Folder: C:/Users/PTC/OneDrive - Hanoi University of Science and Technology/Desktop/CT/CTD/untitled/cmake-build-debug
 
-build all: phony W4_1.exe
+build all: phony untitled.exe
 
 # =============================================================================
 # Built-in targets

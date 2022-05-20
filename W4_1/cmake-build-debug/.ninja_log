@@ -1,3 +1,5 @@
 # ninja log v5
 38	296	6733610554535576	CMakeFiles/W4_1.dir/symtab.c.obj	98d8d3c3a532e8e
 0	298	6733610554545591	CMakeFiles/W4_1.dir/debug.c.obj	abb3fe0bbd4038dd
+2	385	6745620630918433	CMakeFiles/W4_1.dir/main.c.obj	64da6e8c29cf6773
+386	569	6745620632758573	W4_1.exe	3bbd3b16c1f51c10

@@ -1,0 +1,15 @@
+# ninja log v5
+1	174	6745628190612186	CMakeFiles/untitled.dir/main.c.obj	cbc73af82d3b8af
+2	153	6745628567119331	CMakeFiles/untitled.dir/charcode.c.obj	6eb703ff0dd8282b
+23	192	6745628567539318	CMakeFiles/untitled.dir/error.c.obj	3650b45f9d84959b
+28	193	6745628567529335	CMakeFiles/untitled.dir/reader.c.obj	f49011538dad1ebd
+33	204	6745628567639332	CMakeFiles/untitled.dir/debug.c.obj	529139ee4e75118f
+65	229	6745628567909365	CMakeFiles/untitled.dir/token.c.obj	6ec5dd434abef25
+19	233	6745628567939332	CMakeFiles/untitled.dir/parser.c.obj	d0e7611ce928cf4f
+43	263	6745628568249311	CMakeFiles/untitled.dir/scanner.c.obj	9de06855652e69f8
+56	266	6745628568269312	CMakeFiles/untitled.dir/symtab.c.obj	3ec559c14aa84691
+266	471	6745628570259330	untitled.exe	30922dd20c0476d1
+11	200	6745664975292283	CMakeFiles/untitled.dir/parser.c.obj	d0e7611ce928cf4f
+201	434	6745664977593088	untitled.exe	30922dd20c0476d1
+10	176	6745673888603631	CMakeFiles/untitled.dir/symtab.c.obj	3ec559c14aa84691
+177	326	6745673890103658	untitled.exe	30922dd20c0476d1
